@@ -1,1 +1,4 @@
 keyforlab1.pem
+.terraform\*
+.terraform*
+terraform.tfvars
