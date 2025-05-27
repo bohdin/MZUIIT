@@ -1,11 +1,7 @@
-variable "TF_VAR_aws_access_key" {
-  description = "AWS Access Key"
-  type        = string
-  sensitive   = true
+variable "aws_access_key" {
+  type = string
 }
 
-variable "TF_VAR_aws_secret_key" {
-  description = "AWS Secret Key"
-  type        = string
-  sensitive   = true
+variable "aws_secret_key" {
+  type = string
 }
